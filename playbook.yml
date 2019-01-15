@@ -1,0 +1,13 @@
+---
+  - hosts: web
+    become: true
+
+    roles:
+      - lamp
+      - apache2
+      - php
+      - wordpress
+#  - hosts: db
+    
+#    roles:
+#      - mysql

@@ -1,0 +1,10 @@
+[control]
+ip-10-0-3-97 ansible_connection=local
+
+
+[web]
+ubuntu@10.0.3.83
+
+
+[db]
+wordpress-db.ccl67xm85rvp.eu-west-1.rds.amazonaws.com
